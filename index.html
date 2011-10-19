@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      var theButton;
+      var ToolbarUIItemProperties = {
+        title: "Play pairs game!",
+        icon: "png/cover.png",
+        badge: {
+          display: 'block',
+          backgroundColor: '#5566ff',
+          color: '#ffffff',
+          textContent: '',
+        },
+        popup: {
+          href: "popup.html",
+          width: 430,
+          height: 320
+        }
+      }
+
+      theButton = opera.contexts.toolbar.createItem(ToolbarUIItemProperties);
+      opera.contexts.toolbar.addItem(theButton);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>

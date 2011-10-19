@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Word counter</title>
+    <script type="text/javascript" src="pairs.js"></script>
+
+    <style type="text/css">
+      .field {
+        width: 64px;
+        height: 64px;
+        margin: 2px;
+        // border: 1px solid black;
+        background-image: url('png/cover.png');
+
+        display: table-cell;
+
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      #messages {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="board"></div>
+
+    <div id="messages">
+      <span id="status"></span>
+    </div>
+
+    <div id="satus">
+      Pairs left: <span id="pairs">0</span> | 
+      Moves: <span id="moves">0</span> |
+      Time: <span id="time">0</span>
+    </div>
+
+  </body>
+</html>

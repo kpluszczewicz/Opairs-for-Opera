@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets">
+	<name>Opairs</name>
+	<description>Classic memory game</description>
+  	<author email="k.pluszczewicz@gmail.com">Kamil Pluszczewicz</author>
+    <icon src="png/cover.png"/>
+</widget>
